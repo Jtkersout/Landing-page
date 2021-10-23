@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    background-color:#1f2937;
+    justify-content: space-around;
+    padding: 15px;
+    color: #f9faf8;
+    font-size: 24px;
+
+    
+}
+.text {
+    font-size: 38px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text1 {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.text2{
+    width: 100px;
+    background-color:  #3882f6;
+    margin: 5px;
+}
+a {
+    margin: 5px;
+    color: #f9faf8;
+}
+
+.header1 {
+    background-color:#1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+    margin: 0px;
+    margin-bottom: 10px;
+    flex: 1;
+    height: 300px;
+}
+p {
+   
+}
+
+img {
+margin-bottom: 10px;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    
+}
+
+.content {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    height: 400px;
+    background-image:url(https://img2.goodfon.com/wallpaper/nbig/a/a5/afric-animality-zebras-afrika.jpg);
+    background-size: cover;
+}
+.back {
+    background-color: #6997e0;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+}
+
+.containerf {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.callto {
+    color: white;
+    font-style: 24px;
+    font-weight: 800;
+}
+button {
+    margin-left: 700px;
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    flex-shrink: 0;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
